@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering the Main Title */
+.main-title {
+    text-align: center;
+    width: 100%; /* or 800px */
+    margin: 0 auto;
+    font-family: Garamond, serif;
+    font-size: 2.5em;
+    color: #504f4fce;
+}
+
+/* Centering the Menu Title */
+.centered-title {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling Headings */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5em;
+    color: #333;
+    margin: 0.5em 0;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    color: #666060e1;
+    margin: 1em 0;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+}
+
+h4 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    margin: 1em 0;
+}
+
+/* Menu Descriptions Styling */
+.menu-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0.5em 0;
+    padding-left: 1em;
+}
+
+/* Adjusting Line Height */
+body, p {
+    line-height: 1.2;
+}
+
+/* Adjusting Spacing */
+p {
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+ul, li {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0.8em;
+    padding-top: 0.5em;
+}
+
+/* Change the background color of the whole page */
+body {
+    background-color: #e6f2ff; 
+    color: #333; /* Text color for contrast */
+}
+
+/* Location and Hours */
+#location-hours h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#location-hours dl dt {
+    font-weight: bold;
+    color: #333;
+}
+
+#location-hours dl dd {
+    margin-left: 15px;
+    color: #666;
+    font-size: 1em;
+}
+
+#location-hours ul {
+    list-style-type: none;
+}
+
+#location-hours ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f9;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
