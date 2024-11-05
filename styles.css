@@ -5,120 +5,18 @@
     box-sizing: border-box;
 }
 
-/* Centering the Main Title */
-.main-title {
-    text-align: center;
-    width: 100%; /* or 800px */
-    margin: 0 auto;
-    font-family: Garamond, serif;
-    font-size: 2.5em;
-    color: #504f4fce;
-}
-
-/* Centering the Menu Title */
-.centered-title {
-    text-align: center;
-    width: 800px;
+.centered-image {
+    display: block;
     margin: 0 auto;
 }
 
-/* Styling Headings */
-h1 {
-    font-family: Georgia, serif;
-    font-size: 2.5em;
-    color: #333;
-    margin: 0.5em 0;
-}
-
-h2 {
-    font-family: Georgia, serif;
-    font-size: 2em;
-    color: #666060e1;
-    margin: 1em 0;
-}
-
-h3 {
-    font-family: Georgia, serif;
-    font-size: 1.5em;
-    color: #333;
-    margin: 1em 0;
-}
-
-h4 {
-    font-family: Georgia, serif;
-    font-size: 1.2em;
-    color: #333;
-    margin: 1em 0;
-}
-
-/* Menu Descriptions Styling */
-.menu-description {
-    font-size: 1em;
-    color: #666;
-    line-height: 1.6;
-    margin: 0.5em 0;
-    padding-left: 1em;
-}
-
-/* Adjusting Line Height */
-body, p {
-    line-height: 1.2;
-}
-
-/* Adjusting Spacing */
-p {
-    margin: 1em 0;
-    padding: 0 1em;
-}
-
-ul, li {
-    margin: 0.5em 0;
-    padding-left: 1.5em;
-}
-
-h1, h2, h3, h4 {
-    margin-top: 0.8em;
-    padding-top: 0.5em;
-}
-
-/* Change the background color of the whole page */
+/* Body Styling */
 body {
-    background-color: #e6f2ff; 
-    color: #333; /* Text color for contrast */
-}
-
-/* Location and Hours */
-#location-hours h3 {
-    font-size: 1.5em;
+    font-family: Arial, sans-serif;
     color: #333;
-    margin-bottom: 10px;
-}
-
-#location-hours dl dt {
-    font-weight: bold;
-    color: #333;
-}
-
-#location-hours dl dd {
-    margin-left: 15px;
-    color: #666;
-    font-size: 1em;
-}
-
-#location-hours ul {
-    list-style-type: none;
-}
-
-#location-hours ul li {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1em;
-    color: #666;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    padding: 20px;
 }
 
 /* Header and Navigation */
@@ -150,6 +48,87 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Main Content */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    color:#6d6c6c;
+}
+
+/* Center the main title using the class */
+.main-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Section Headings */
+section h2 {
+    font-size: 1.8em;
+    color: #6d6c6c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #6d6c6c;
+    margin-bottom: 10px;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.menu-item h4 {
+    font-size: 1.3em;
+    color: #6d6c6c;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Location and Hours */
+#location-hours h3 {
+    font-size: 1.5em;
+    color: #6a8394;
+    margin-bottom: 10px;
+}
+
+#location-hours dl dt {
+    font-weight: bold;
+    color: #333;
+}
+
+#location-hours dl dd {
+    margin-left: 15px;
+    color: #666;
+    font-size: 1em;
+}
+
+#location-hours ul {
+    list-style-type: none;
+}
+
+#location-hours ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    color: #666;
+}
+
 /* Footer Styling */
 footer {
     background-color: #333;
@@ -179,3 +158,16 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .menu-item,
+    #location-hours ul li {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+   
